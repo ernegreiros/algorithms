@@ -593,3 +593,5 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+CSharp/*/[Bb]in/
+CSharp/*/[Oo]bj/
