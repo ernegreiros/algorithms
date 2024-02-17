@@ -29,9 +29,9 @@
 
 //Lista precisa ser ordenada para funcionar, a busca do algoritmo é log n (log é log2)
 
-var list = Enumerable.Range(1, 100).ToList();
+var list = Enumerable.Range(1, 1000000).ToList();
 //var item = Convert.ToInt32(Console.ReadLine());
-var item = 100;
+var item = 1000000;
 
 var itemPosition = GetItemPositionInList(list, item);
 
